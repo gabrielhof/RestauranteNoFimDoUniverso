@@ -1,6 +1,9 @@
 package br.feevale.rfu.model;
 
-public class Prato {
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class Prato implements Serializable {
 
 	private Integer idPrato;
 	private String nome;

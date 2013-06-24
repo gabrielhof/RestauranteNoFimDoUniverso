@@ -1,6 +1,9 @@
 package br.feevale.rfu.model;
 
-public class Tarefa {
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class Tarefa implements Serializable {
 
 	private String descricao;
 	private Integer idTarefa;

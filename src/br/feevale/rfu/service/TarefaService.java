@@ -2,13 +2,14 @@ package br.feevale.rfu.service;
 
 import br.feevale.rfu.model.Prato;
 import br.feevale.rfu.model.Tarefa;
+import br.feevale.rfu.model.list.Tarefas;
 
 public interface TarefaService {
 
 	public void save(Tarefa tarefa);
 	
-	public Tarefa[] listAll();
+	public Tarefas listAll();
 	
-	public Tarefa[] getTarefas(Prato prato);
+	public Tarefas getTarefas(Prato prato);
 	
 }

@@ -1,9 +1,10 @@
 package br.feevale.rfu.model;
 
-import java.io.Serializable;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 @SuppressWarnings("serial")
-public class Tarefa implements Serializable {
+public class Tarefa extends Bean {
 
 	private String descricao;
 	private Integer idTarefa;
